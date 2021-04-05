@@ -1,6 +1,6 @@
 import { Translations } from "../../../shared/types";
 
-const translationsEn: Translations = {
+const translationsZh: Partial<Translations> = {
     // Menu (defined by macOS)   
     "about-app": "关于{appName}",
     "bring-all-to-front": "全部置顶",
@@ -120,11 +120,11 @@ const translationsEn: Translations = {
     "import-error-msg": "导入过程中发生了错误",
     "import-error-title": "导入错误",
     "import-instructions-day-one":
-        "打开Day One并依次点击File → Export → {format}，导出数据文件并解压，然后选择解压后的文件并导入到{appName}.",
+    	"打开Day One并依次点击File → Export → {format}，导出数据文件并解压，然后选择解压后的文件并导入到{appName}.",
     "import-instructions-jrnl":
-        "要导出jrnl数据文件，请运行命令 {command}. 然后选择导出的JSON文件并导入到{appName}.",
+    	"要导出jrnl数据文件，请运行命令 {command}. 然后选择导出的JSON文件并导入到{appName}.",
     "import-instructions-mini-diary":
-        "你可以从之前由{appName}导出的JSON文件或者其他保持相同格式的JSON文件导入数据.",
+    	"你可以从之前由{appName}导出的JSON文件或者其他保持相同格式的JSON文件导入数据.",
     "start-import": "开始导入",
 
     // Export
