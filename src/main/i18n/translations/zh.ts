@@ -136,4 +136,4 @@ const translationsEn: Translations = {
 
 };
 
-export default translationsEn;
+export default translationsZh;
